@@ -19,6 +19,7 @@ ____________
 - JavaScript
 - Git
 - Photoshop
+
 _____________
 # Code examples
 
@@ -68,6 +69,7 @@ _________________
 Small project while studying at Myfreedom.
 
 Helped to rewrite the game from Java to JavaScript for Facebook games.
+
 ________________
 
 # Education
@@ -79,6 +81,7 @@ Faculty: English language
 IT-school Myfreedom (Minsk, Belarus) : January 2018 - April 2018
 
 Course: Front-End Developer 
+
 ________________
 
 # English level 
