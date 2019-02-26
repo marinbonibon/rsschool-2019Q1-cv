@@ -62,3 +62,27 @@ function tribonacci(signature,n){
 }
 ```
 _________________
+
+# Experience
+
+Small project while studying at Myfreedom.
+
+Helped to rewrite the game from Java to JavaScript for Facebook games.
+________________
+
+# Education
+
+Kherson State University (Kherson, Ukraine): 2007-2012
+
+Faculty: English language 
+
+IT-school Myfreedom (Minsk, Belarus) : January 2018 - April 2018
+
+Course: Front-End Developer 
+________________
+
+# English level 
+ 
+English level: B1. 
+
+I learned English while sudying at University, now practice it on lingvaleo.com
