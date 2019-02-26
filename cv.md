@@ -7,12 +7,12 @@ email: <m.petrenko2807@gmail.com>
 [Linkedin](https://www.linkedin.com/in/марина-петренко-35985a73/)
 
 ______________________
-# Summary 
+## Summary 
 
 I believe that I can be right person for your company, because I have basic skills, required for this job. This job is interesting for me because of its opportunity to keep the brain in tone, to see the results of the work, be useful for society by developing the best solutions. I want to improve my skills in web developing  and I also have a great desire to learn and ability to do it quickly.
 
 ____________
-# Skills
+## Skills
 
 - HTML
 - CSS
@@ -21,7 +21,7 @@ ____________
 - Photoshop
 
 _____________
-# Code examples
+## Code examples
 
 1. Function, that takes one integer and returns true or false, depending on if the integer is prime.
 
@@ -64,7 +64,7 @@ function tribonacci(signature,n){
 ```
 _________________
 
-# Experience
+## Experience
 
 Small project while studying at Myfreedom.
 
@@ -72,7 +72,7 @@ Helped to rewrite the game from Java to JavaScript for Facebook games.
 
 ________________
 
-# Education
+## Education
 
 Kherson State University (Kherson, Ukraine): 2007-2012
 
@@ -84,7 +84,7 @@ Course: Front-End Developer
 
 ________________
 
-# English level 
+## English level 
  
 English level: B1. 
 
