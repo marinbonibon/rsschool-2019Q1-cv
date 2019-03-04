@@ -41,6 +41,12 @@ body, html {
   list-style-type: none;
   color: rgb(150, 150, 150);
 }
+.item:hover {
+  color: rgb(132, 82, 112);
+}
+.item {
+  color: rgb(150, 150, 150);
+}
 
 .author {
   display: grid;
