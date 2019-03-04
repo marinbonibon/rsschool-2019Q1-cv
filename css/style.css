@@ -9,11 +9,12 @@ body, html {
   background: url("../img/Background.png") repeat;
 }
 
-.wrapper {
+.container {
   max-width: 102.4rem;
   margin: 0 auto;
-  font-size: 1.3rem;
-  color: #000;
+  font: normal 1.5rem/1.5 "Arial", sans-serif;
+  text-align: justify;
+  color: rgb(80, 100, 100);
 }
 
 .header {
@@ -22,7 +23,9 @@ body, html {
   box-shadow: 0 0.5rem 0.9rem rgb(230, 230, 230);
 }
 .navigation {
-
+  max-width: 102.4rem;
+  margin: 0 auto;
+  font: normal 1.5rem/1.5 "Arial", sans-serif;
 
 }
 
@@ -35,4 +38,44 @@ body, html {
   text-align: center;
   list-style-type: none;
   color: rgb(150, 150, 150);
+}
+
+.author {
+  display: grid;
+  grid-template: 28rem /30% 70%;
+}
+
+.main {
+  padding: 5rem;
+}
+
+.link {
+  text-decoration: none;
+  color: rgb(154,115,154);
+}
+
+.subtitle {
+  color: rgb(154,115,154);
+  padding-top: 2rem;
+}
+
+.list {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.list-item::before {
+  content: "•";
+  padding-right: 1rem;
+  color: rgb(154,115,154);
+}
+
+.line {
+  border: 0;
+  height: 0;
+  box-shadow: 0 0 1rem 0.1rem rgb(154,115,154);;
+}
+
+.inner {
+  padding-bottom: 1rem;
 }
