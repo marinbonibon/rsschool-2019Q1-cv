@@ -29,7 +29,7 @@ body, html {
 
 .menu {
   display: grid;
-  grid-template: 2rem / repeat(6, 12rem);
+  grid-template: 2rem / repeat(7, 12rem);
   grid-column-gap: 5rem;
   padding: 2rem;
   font-size: 1.6rem;
@@ -118,4 +118,24 @@ body, html {
 .linkedin:hover,
 .icon:hover {
   opacity: 0.5;
+}
+
+.print {
+  border: none;
+  width: 16px;
+  height: 16px;
+  background: url("../img/print.png");
+  outline:none;
+  cursor: pointer;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  opacity: 0;
+  transition: 1s;
+  pointer-events: none;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
 }
