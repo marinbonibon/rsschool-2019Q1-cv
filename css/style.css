@@ -139,3 +139,7 @@ body, html {
 [data-tooltip]:hover::after {
   opacity: 1;
 }
+
+.item-padding {
+  padding-left: 10px;
+}
