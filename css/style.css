@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  width: 100%;
+  font-style: normal;
+  font-size: 10px;
+  font-family: "Arial", sans-serif;
+  line-height: 1.5;
+  background: url("../img/Background.png") repeat;
+}
+
+.container {
+  padding: 5rem;
+}
+
+.header {
+  width: 100%;
+  background-color: rgba(241, 241, 241, 0.5);
+  box-shadow: 0 0.5rem 0.9rem rgb(230, 230, 230);
+}
+
+.navigation {
+  margin: 0 auto;
+  font: normal 1.5rem/1.5 "Arial", sans-serif;
+}
+
+.menu {
+  display: grid;
+  grid-template: 2rem / repeat(7, 12rem);
+  grid-column-gap: 5rem;
+  padding: 2rem;
+  font-size: 1.6rem;
+  text-align: center;
+  list-style-type: none;
+  color: rgb(150, 150, 150);
+}
+
+.item:hover {
+  color: rgb(132, 82, 112);
+}
+
+.item {
+  color: rgb(150, 150, 150);
+}
+
+.author {
+  display: grid;
+  grid-template: 28rem /30% 70%;
+}
+
+.main {
+  margin: 0 auto;
+  font-size: 1.5rem;
+  text-align: justify;
+  color: rgb(80, 100, 100);
+}
+
+.link {
+  padding-left: 1rem;
+  text-decoration: none;
+}
+
+.subtitle {
+  padding-top: 2rem;
+}
+
+.additional-font-color {
+  color: rgb(132, 82, 112);
+}
+
+.list {
+  padding-left: 1rem;
+  list-style: none;
+}
+
+.list-item::before {
+  content: "•";
+  padding-right: 1rem;
+  color: rgb(132, 82, 112);
+}
+
+.line {
+  height: 0;
+  border: 0;
+  box-shadow: 0 0 1rem 0.1rem rgb(132, 82, 112);
+}
+
+.inner {
+  padding-bottom: 1rem;
+}
+
+.footer {
+  font-size: 1.3rem;
+  background-color: rgba(69, 50, 67, 0.3);
+}
+
+.footer-container {
+  margin: 0 auto;
+  padding-right: 5rem;
+  padding-left: 5rem;
+  box-sizing: border-box;
+}
+
+.max-width {
+  max-width: 102.4rem;
+}
+
+.icon {
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+
+.phone:hover,
+.mail:hover,
+.linkedin:hover,
+.icon:hover {
+  opacity: 0.5;
+}
+
+.print {
+  border: none;
+  width: 16px;
+  height: 16px;
+  background: url("../img/print.png");
+  outline:none;
+  cursor: pointer;
+}
+
+[data-tooltip]::after {
+  content: attr(data-tooltip);
+  opacity: 0;
+  transition: 1s;
+  pointer-events: none;
+}
+
+[data-tooltip]:hover::after {
+  opacity: 1;
+}
+
+.item-padding {
+  padding-left: 10px;
+}
